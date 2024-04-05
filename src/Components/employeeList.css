@@ -1,0 +1,101 @@
+/* employeeList.css */
+
+/* employeeList.css */
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: #008ecf;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+}
+
+/* Button styles */
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* EditEmployeeForm styles */
+.edit-form-container {
+  margin-top: 20px;
+}
+
+.edit-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.edit-form-container input[type="text"],
+.edit-form-container input[type="email"],
+.edit-form-container input[type="tel"],
+.edit-form-container select {
+  width: calc(100% - 22px);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-form-container textarea {
+  width: calc(100% - 22px);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.edit-form-container button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.edit-form-container button:active {
+  background-color: #004080;
+}
+
+.edit-form-container .cancel-button {
+  margin-left: 10px;
+  background-color: #ccc;
+}
+
+.edit-form-container .cancel-button:hover {
+  background-color: #999;
+}
+
+  
